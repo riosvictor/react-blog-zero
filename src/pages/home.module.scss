@@ -1,1 +1,89 @@
-// TODO
+.mainContainer {
+  margin: 80px auto 80px 22.5%;
+
+  margin-bottom: 64px;
+
+  > div:not(:last-child) {
+    margin-bottom: 48px;
+  }
+}
+
+.post {
+  width: 100%;
+  height: 100%;
+
+  h1 {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 68.52%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+
+    text-align: justify;
+    letter-spacing: -0.5px;
+
+    color: #F8F8F8;
+  }
+
+  h2 {
+    margin-top: 8px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: justify;
+
+    color: #D7D7D7;
+  }
+
+  div {
+    display: flex;
+
+    margin-top: 24px;
+
+    > span:not(:last-child) {
+      margin-right: 24px;
+    }
+
+    span {
+      display: flex;
+
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #BBBBBB;
+
+      p {
+        margin-left: 8px;
+      }
+    }
+  }
+}
+
+.button {
+  width: 176px;
+  height: 22px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: justify;
+
+  background-color: #1A1D23;
+  color: #FF57B2;
+  border: 0px;
+}

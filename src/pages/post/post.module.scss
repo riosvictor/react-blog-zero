@@ -1,1 +1,81 @@
-// TODO
+.container {
+
+  main {
+    margin: 80px 0px;
+    margin-left: 25%;
+
+    width: 720px;
+
+    h1 {
+      margin-bottom: 24px;
+
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 58px;
+
+      letter-spacing: -0.5px;
+
+      color: #F8F8F8;
+    }
+
+    h2 {
+      margin-bottom: 48px;
+
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 140%;
+
+      text-align: justify;
+
+      color: #F8F8F8;
+    }
+
+    h3 {
+      margin-bottom: 24px;
+
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+
+      text-align: justify;
+
+      color: #D7D7D7;
+    }
+
+    > div {
+      display: flex;
+
+      margin-bottom: 64px;
+
+      > span:not(:last-child) {
+        margin-right: 24px;
+      }
+
+      span {
+        display: flex;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #BBBBBB;
+
+        p {
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}
+
+.image {
+  object-fit: contain;
+}
